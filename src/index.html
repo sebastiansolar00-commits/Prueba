@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="input.css">
+  <title>Frontend Mentor | Bento grid</title>
+
+</head>
+<body class="m-5 bg-gray-400 lg:my-30 lg:mx-52">
+  <div class="CONTAINER grid gap-5 
+  lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))]
+  lg:grid-rows-[repeat(auto-fit,minmax(300px,1fr))]" >
+
+
+    <div class=" SOCIAL flex flex-col text-center justify-evenly rounded-lg gap-3 p-8 lg:p-4 
+    lg:col-start-2 lg:col-end-4">
+      <div class="transition duration-300 hover:scale-110">
+          <h2 class="text-3xl lg:text-5xl text-white font-semibold">Social Media <span class="text-amber-400">10x</span> <span class="italic">Faster</span> with AI</h2>
+        <div>
+          <img class="mx-auto" src="/assets/images/illustration-five-stars.webp" alt="illustration-five-stars">
+        <p class="text-lg text-gray-200 tracking-wide">Over 4,000 5-Star reviews</p>
+        </div>
+      </div> 
+      
+    </div>
+
+    <div class="MANAGE gap-5 p-5 bg-gray-300 rounded-lg 
+    lg:col-start-2 lg:row-start-2">
+      <div class="flex flex-col transition duration-300 hover:scale-110 lg:h-full lg:justify-around gap-5">
+        <img src="/assets/images/illustration-multiple-platforms.webp" alt="illustration-multiple-platforms">
+        <p class="text-2xl font-semibold tracking-wide lg:text-4xl lg:font-light">Manage multiple accounts and platforms</p>
+      </div>
+    </div>
+
+    <div class="MAINTAIN rounded-lg 
+    lg:col-start-3 lg:row-start-2 overflow-hidden">
+      <div class="transition duration-300 hover:scale-110 flex flex-col gap-5 justify-around h-full">
+        <h2 class="text-2xl font-semibold px-7 py-5 lg:font-light lg:text-4xl">Maintain a consistent posting schedule</h2>
+        <img class="object-cover px-7" src="/assets/images/illustration-consistent-schedule.webp" alt="illustration-consistent-schedule">
+      </div>
+    </div>
+
+    <div class="SCHEDULE flex flex-col gap-3 bg-amber-100 rounded-lg p-7 justify-evenly  text-center content-center items-center lg:col-start-4 lg:row-start-1 lg:row-end-3">
+      <div class="transition duration-300 hover:scale-110 lg:flex lg:flex-col lg:gap-4 lg:h-full lg:justify-evenly lg:items-center">
+        <h2 class="text-2xl font-semibold lg:text-5xl lg:font-light">Schedule to social media.</h2>
+        <img src="/assets/images/illustration-schedule-posts.webp" class="align-bottom" alt="">
+        <p class="text-xl">Optimize post timing to publish content at the perfect time for your audience.</p>
+      </div>
+    </div>
+
+    <div class="GROW text-center flex flex-col p-5 gap-4 rounded-lg 
+    lg:col-span-2 lg:row-start-3 lg:h-80 lg:flex lg:flex-row overflow-hidden">
+      <div class="transition duration-300 hover:scale-110 lg:flex ">
+        <div>
+        <img src="/assets/images/illustration-grow-followers.webp" class="w-full h-full object-contain " alt="illustration-grow-followers">
+      </div>
+      <div class="text-center items-center content-center">
+        <p class="text-white text-3xl text-center lg:w-80 lg:text-5xl">Grow followers with non-stop content.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="FASTER  p-5  bg-gray-300 rounded-lg 
+    lg:col-start-2 lg:row-start-3">
+      <div class="transition duration-300 hover:scale-110 flex flex-col gap-4">
+        <h2 class="text-6xl font-semibold">>56%</h2>
+        <p class="text-xl">faster audience growth</p>
+        <img src="/assets/images/illustration-audience-growth.webp" alt="audience-growth">
+      </div>
+    </div>
+
+    <div class="CREATE  p-5 bg-gray-300 rounded-lg 
+    lg:col-start-1 lg:row-start-1">
+      <div class="transition duration-300 hover:scale-110 flex flex-col gap-5">
+        <h2 class="text-3xl font-semibold tracking-tight lg:text-5xl basis-4/5">Create and schedule content <span class="QUICKER italic text-purple-700">quicker.</span></h2>
+        <img src="/assets/images/illustration-create-post.webp" class="basis-1/5" alt="illustration-create-post">
+      </div>
+    </div>
+
+    <div class="WRITE  p-5 bg-gray-300 rounded-lg 
+    lg:col-start-1 lg:row-start-2 lg:row-end-4">
+      <div class="transition duration-300 hover:scale-110 flex flex-col gap-5">
+        <h2 class="text-3xl font-semibold tracking-tight 
+        lg:text-6xl lg:font-normal">Write your content using AI.</h2>
+        <div class="grid grid-cols-4">
+          <img class="col-span-3 lg:col-span-4" src="/assets/images/illustration-ai-content.webp" alt="illustration-ai-content">
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+</body>
+</html>

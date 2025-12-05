@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "DMSans";
+    src: url("./assets/fonts/DMSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "DMSans-Italic";
+    src: url("./assets/fonts/DMSans-Italic.ttf") format("truetype");
+    font-weight: 400;
+}
+
+body {
+    font-family: "DMSans-Italic", sans-serif;
+}
+
+:root {
+--Purple100: hsl(254, 88%, 90%);
+--Purple500: hsl(256, 67%, 59%);
+
+--Yellow100: hsl(31, 66%, 93%);
+--Yellow500: hsl(39, 100%, 71%);
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 7%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "DMSans", sans-serif;
+    
+}
+
+.SOCIAL {
+    background-color: var(--Purple500);
+}
+
+.MAINTAIN {
+    background-color: var(--Yellow500);
+}
+
+.SCHEDULE {
+    background-color: var(--Purple100);
+}
+
+.GROW {
+    background-color: var(--Purple500);
+}
+
+.WRITE {
+    background-color: var(--Yellow500);
+}
+
+.CONTANIER {
+    
+}
